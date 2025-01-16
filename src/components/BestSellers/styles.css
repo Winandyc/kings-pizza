@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import '../../variables.css';
+@font-face {
+  font-family: 'AlphaWood';
+  src: url('../../fonts/AlphaWood.ttf') format('opentype');
+}
+
+.best-sellers-title {
+  font-family: 'AlphaWood', cursive;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.best-sellers {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.logo-container {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #D7C595 60%, var(--primary-color) 100%);
+  display: flex;
+  gap: 80px;
+  width: 200%;
+  padding: 15px 0 0 0;
+  animation: scroll 35s linear infinite;
+}
+
+.logo-item {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.logo-container img {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.logo-item h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.logo-item:hover {
+  transform: scale(1.1);
+}
+
+/* Styles pour la modale */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content img {
+  border-radius: 10px;
+  width: 65%;
+  height: 45dvh;
+}
+
+.logo-item h2 {
+  font-family: 'duality', cursive;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

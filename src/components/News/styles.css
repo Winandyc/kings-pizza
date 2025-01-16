@@ -1,0 +1,87 @@
+@import '../../variables.css';
+
+@font-face {
+    font-family: 'AlphaWood', 'duality';
+    src: url('../../fonts/AlphaWood.ttf') format('opentype'), url('../../fonts/duality.otf') format('opentype');
+}
+
+.news-section {
+    padding: 40px 0 0;
+    width: 100%;
+}
+
+.news-title {
+    font-family: 'AlphaWood', cursive;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.news-poster {
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 0 15px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.poster-title {
+    font-family: 'duality', cursive;
+    font-size: 1.5em;
+    color: var(--third-color);
+    text-align: left;
+}
+
+.poster-title2 {
+    font-family: 'duality', cursive;
+    font-size: 1.5em;
+    padding-top: 30px;
+    color: var(--third-color);
+    text-align: left;
+}
+
+.poster-description {
+    display: grid;
+    gap: 15px;
+}
+
+.poster-description li {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'duality', cursive;
+    padding: 5px 0;
+    position: relative;
+    flex-direction: column;
+}
+
+.poster-description li .price {
+    display: grid;
+    align-self: flex-end;
+    color: var(--third-color);
+}
+
+.poster-description li::after {
+    content: "...........................................................................";
+    color: black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ingredient-description {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-family: 'duality';
+    font-weight: normal;
+    font-style: italic;
+}

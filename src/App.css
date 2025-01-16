@@ -1,0 +1,12 @@
+@import '../src/variables.css';
+
+.App {
+  text-align: center;
+  /* padding: 0 20px; */
+  background-color: var(second-color);
+  transition: background-color 0.3s ease;
+}
+
+p {
+  margin: 2px;
+}

@@ -1,0 +1,82 @@
+.pizza-menu-container {
+  padding: 15px;
+  position: relative;
+}
+
+.pizza-menu-container h1 {
+  display: flex;
+  font-size: 44px;
+  font-family: 'AlphaWood', cursive;
+  color: var(--primary-color);
+}
+
+.delivery {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'duality', cursive;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.delivery span {
+  font-weight: bold;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  color: black;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'duality', cursive;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.dots {
+  flex-grow: 1;
+  font-weight: bolder;
+  display: flex;
+  margin: 0 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pizza-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 2px 0;
+  font-size: 16px;
+}
+
+.pizza-name {
+  font-size: 20px;
+  font-family: 'duality';
+  font-weight: bold;
+}
+
+.price {
+  color: var(--third-color);
+  font-weight: bolder;
+  font-size: 18px
+}
+
+.ingredient-description {
+  display: flex;
+  font-size: 16px;
+  margin-left: 10px;
+}
