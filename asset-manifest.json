@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kings-pizza/static/css/main.b878e5a6.css",
+    "main.js": "/kings-pizza/static/js/main.4500c54e.js",
+    "static/js/453.b49dcec8.chunk.js": "/kings-pizza/static/js/453.b49dcec8.chunk.js",
+    "static/media/AlphaWood.ttf": "/kings-pizza/static/media/AlphaWood.dc3c37d2590732428075.ttf",
+    "static/media/duality.otf": "/kings-pizza/static/media/duality.583c2fc6a1ec62605242.otf",
+    "index.html": "/kings-pizza/index.html",
+    "main.b878e5a6.css.map": "/kings-pizza/static/css/main.b878e5a6.css.map",
+    "main.4500c54e.js.map": "/kings-pizza/static/js/main.4500c54e.js.map",
+    "453.b49dcec8.chunk.js.map": "/kings-pizza/static/js/453.b49dcec8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b878e5a6.css",
+    "static/js/main.4500c54e.js"
+  ]
+}
