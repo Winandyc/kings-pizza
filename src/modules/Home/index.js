@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/Header';
 import BurgerMenu from '../../components/BurgerMenu';
-import BestSellers from '../../components/BestSellers';
+import Subscription from '../../components/Subscription';
 import News from '../../components/News';
 import { Headset } from 'lucide-react';
 
@@ -20,7 +20,7 @@ const Home = () => {
             <div className="home-content1">
                 {/* Zone gauche avec logo */}
                 <div className="left-section">
-                    <img src={`${process.env.PUBLIC_URL}/images/logoLMB-w.png`} alt="Restaurant Logo" className="logo-intro" />
+                    <img src={`${process.env.PUBLIC_URL}/images/logoKings2.png`} alt="Restaurant Logo" className="logo-intro" />
                     <p>
                         <strong>Pizzas traditionnelles - Viande Angus Irlandaise de qualité supérieure</strong>
                     </p>
@@ -49,9 +49,9 @@ const Home = () => {
 
             {/* Zonde de texte */}
             <div className="text-section">
-                <h2>Bienvenue à La Maison du Bon</h2>
+                <h2>Bienvenue Chez Kings Pizza !</h2>
                 <p>
-                    Découvrez l'authenticité de notre restaurant où viandes grillées et pizzas faites maison s'unissent pour offrir une expérience culinaire inoubliable.
+                    Découvrez l'authenticité de notre pizzeria avec des pizzas uniques cuites au feu de bois.
                 </p>
                 <br />
                 <p>
@@ -63,7 +63,7 @@ const Home = () => {
                 </p>
             </div>
 
-            <BestSellers />
+            <Subscription />
             <News />
 
             {/* Utilisation du composant BurgerMenu */}

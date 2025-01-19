@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from '../../components/Header';
+
 import './styles.css';
 
 const About = () => {
@@ -37,7 +38,7 @@ const About = () => {
                 <strong>Email :</strong> contact@lamaisondubon.com
             </p>
             <p>
-                <strong>Adresse :</strong> 123 Rue du Far West, 06800 Cagnes-sur-Mer
+                <strong>Adresse :</strong> 74 AV Jean Jaurès, 26200 Montélimar
             </p>
             <h3>Heures d'ouverture :</h3>
             <p>Lundi - Vendredi : 12h - 22h</p>
@@ -50,7 +51,7 @@ const About = () => {
                     <ul>
                         <li><a href="#home">Accueil</a></li>
                         <li><a href="#menu">Menu</a></li>
-                        <li><a href="#rooms">Découvrez nous !</a></li>
+                        <li><a href="#subscription">Abonnement</a></li>
                         <li><a href="#about">À propos</a></li>
                     </ul>
                 </div>

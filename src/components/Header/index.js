@@ -9,8 +9,8 @@ const Header = ({ toggleMenu, isMenuOpen }) => {
         <header className="header">
             <div className="header-container">
                 <img
-                    src={`${process.env.PUBLIC_URL}/images/logoLMB-w.png`}
-                    alt="Logo La Maison du Bon"
+                    src={`${process.env.PUBLIC_URL}/images/logoKings2.png`}
+                    alt="Logo Kings Pizza"
                     className="logo"
                     onClick={() => window.location.reload()}
                 />
@@ -18,8 +18,7 @@ const Header = ({ toggleMenu, isMenuOpen }) => {
                 <nav className="nav-links">
                     <Link to="/">Accueil</Link> {/* Home page */}
                     <Link to="/menu">Menu</Link>
-                    <Link to="/rooms">Découvrez nous</Link> {/* photos rooms, terasse... */}
-                    <Link to="/avis">Avis clients</Link>
+                    <Link to="/subscription">Abonnement</Link>
                     <Link to="/about">À propos</Link> {/* Contact, adresse et map... */}
                 </nav>
                 {/* Affichage du menu burger uniquement pour les petits écrans */}

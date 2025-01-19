@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import Pizzas from '../../Pizzas';
-import Wok from '../Wok';
 
 import './styles.css';
 
@@ -22,9 +21,6 @@ export const Pizzeria = () => {
 
             {/* Section Pizzas */}
                 <Pizzas />
-
-            {/* Section Wok */}
-                <Wok />
         </div>
     );
 };

@@ -29,7 +29,6 @@ const BurgerMenu = ({ toggleMenu, isMenuOpen }) => {
                 <ul>
                     <li><Link to="/">Accueil</Link></li>
                     <li><Link to="/menu">Menu</Link></li>
-                    <li><Link to="/rooms">Découvrez nous !</Link></li>
                     <li><Link to="/about">À propos</Link></li>
                 </ul>
             </div>

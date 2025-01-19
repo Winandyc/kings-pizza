@@ -5,7 +5,7 @@
   src: url('../../fonts/AlphaWood.ttf') format('opentype');
 }
 
-.best-sellers-title {
+.subscription-title {
   font-family: 'AlphaWood', cursive;
   font-size: 2.5rem;
   color: var(--primary-color);
@@ -14,7 +14,7 @@
   margin-left: 10px;
 }
 
-.best-sellers {
+.subscription {
   overflow: hidden;
   width: 100%;
   margin-top: 40px;
@@ -27,7 +27,6 @@
   gap: 80px;
   width: 200%;
   padding: 15px 0 0 0;
-  animation: scroll 35s linear infinite;
 }
 
 .logo-item {

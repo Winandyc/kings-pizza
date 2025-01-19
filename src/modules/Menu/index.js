@@ -28,16 +28,15 @@ const Menu = () => {
     return (
         <div className={`menu-container ${isMenuOpen ? 'darken' : ''}`}>
             <Header toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
-            <h1>Nos Menus</h1>
             <div className="menu-cards">
                 <Link to="/menu/pizzeria" className="menu-card">
                     <h2>Pizzeria</h2>
                 </Link>
                 <Link to="/menu/restaurant" className="menu-card">
-                    <h2>Restaurant</h2>
+                    <h2>Snacking</h2>
                 </Link>
                 <Link to="/menu/specialties" className="menu-card">
-                    <h2>Nos spécialités</h2>
+                    <h2>Boissons/desserts</h2>
                 </Link>
             </div>
 
@@ -48,7 +47,7 @@ const Menu = () => {
                     <ul>
                         <li><a href="#home">Accueil</a></li>
                         <li><a href="#menu">Menu</a></li>
-                        <li><a href="#rooms">Découvrez nous !</a></li>
+                        <li><a href="#subscription">Abonnement</a></li>
                         <li><a href="#about">À propos</a></li>
                     </ul>
                 </div>

@@ -1,8 +1,1 @@
-à revoir si libre de droits ou non ? (si utilisés)
-logos : basil - chorizo - oinion - pizza - delivry
-
-
-
-A revoir : scroll barre 900px et en dessous
-
-LogoModals --> styles.css : Pourquoi si je retire 'AlphaWood' ça casse tout ?
+-

@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="copyright">
-                    <p>Copyright © 2024 | LA MAISON DU BON</p>
+                    <p>Copyright © 2025 | KING'S PIZZA</p>
                 </div>
                 <div className="legal">
                     <Link to="/LegalesNotices">Mentions légales</Link>
