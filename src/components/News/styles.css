@@ -1,19 +1,14 @@
 @import '../../variables.css';
 
-@font-face {
-    font-family: 'AlphaWood', 'duality';
-    src: url('../../fonts/AlphaWood.ttf') format('opentype'), url('../../fonts/duality.otf') format('opentype');
-}
-
 .news-section {
     padding: 40px 0 0;
     width: 100%;
 }
 
 .news-title {
-    font-family: 'AlphaWood', cursive;
+    /* font-family: 'AlphaWood', cursive; */
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: var(--third-color);
     text-align: left;
     margin-bottom: 30px;
     margin-left: 10px;

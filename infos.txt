@@ -1,1 +1,77 @@
--
+
+Pour un thème boisé et en harmonie avec le logo de Kings Pizza, voici quelques idées d'association de couleurs :
+
+1. Inspiration "boisée et chaleureuse"
+Brun chêne clair (#D2A679) : Pour un fond boisé doux et accueillant.
+Vert foncé (#2E7D32) : Évoque la fraîcheur et est en cohérence avec le vert du logo.
+Doré ou jaune miel (#FFC107) : Accentue le côté artisanal et rappelle la couronne du logo.
+
+2. Inspiration "bois sombre et élégant"
+Brun foncé ou noyer (#5D4037) : Un fond boisé profond et chic.
+Rouge foncé ou brique (#C62828) : Pour les boutons ou certains éléments, rappelant l'énergie du logo.
+Blanc cassé ou beige (#F5F5DC) : Pour le texte ou les zones d'écriture, afin de garantir une bonne lisibilité.
+
+3. Inspiration "nature et authenticité"
+Brun terre clair (#A1887F) : Fond chaleureux et naturel.
+Vert olive (#8EAE65) : Pour un accent rustique et en écho avec le logo.
+Crème ou ivoire (#FFF8E1) : Idéal pour les parties légères du site, comme le fond des sections de texte.
+
+
+
+
+--primary-color: #5D4037; /* Brun foncé (fond boisé principal) */
+--secondary-color: #2E7D32; /* Vert foncé (accents et détails) */
+--third-color: #FFC107; /* Jaune doré (éléments lumineux et appels à l'action) */
+Primary color :
+Fond principal (background général).
+Sections majeures (en-tête, pied de page).
+
+Secondary color :
+Boutons ou zones de navigation.
+Liens actifs, hover ou autres détails visuels.
+
+Third color :
+Éléments mis en avant (CTA - Call To Action).
+Souligner des titres ou icônes pour attirer l'attention.
+
+
+
+
+Couleurs pour les titres :
+H1 (titre principal) : Utilise le doré (--third-color: #FFC107) pour mettre en avant le titre principal. Cela attire l'attention tout en rappelant la couronne du logo.
+H2 (sous-titres) : Utilise le vert foncé (--secondary-color: #2E7D32) pour les titres secondaires, ce qui donne un effet naturel et harmonieux.
+
+_________________________________________________________________________________________________________________________________________________________
+
+Typographie :
+Pour refléter le style artisanal et chaleureux, tu peux opter pour une police avec un effet légèrement manuscrit ou rustique. Voici deux suggestions :
+
+Google Fonts :
+"Playfair Display" pour le H1 (élégant, haut de gamme).
+"Roboto" ou "Poppins" pour le H2 (moderne et lisible).
+
+
+Exemple d'import des polices :
+A ajouter dans mes fichiers CSS :
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+*****
+.home {
+  display: flex;
+  background-color: var(--primary-color);
+  flex-direction: column;
+  align-items: center;
+}             à la place de mon bgc actuel je veux mettre l'image "bcg-kings) qui est dans public>images

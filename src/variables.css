@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #683c1b;
-    --second-color: #DACA89;
-    --third-color: #B22222;
+    --primary-color: #5D4037; /* Brun foncé (fond boisé principal) */
+    --secondary-color: #2E7D32; /* Vert foncé (accents et détails) */
+    --third-color: #FFC107; /* Jaune doré (éléments lumineux et appels à l'action) */
 }

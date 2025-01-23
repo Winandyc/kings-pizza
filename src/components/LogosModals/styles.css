@@ -1,8 +1,4 @@
 @import '../../variables.css';
-@font-face {
-    font-family: 'AlphaWood', 'duality';
-    src: url('../../fonts/duality.otf') format('opentype');
-}
 
 .modal-overlay {
     position: fixed;
@@ -18,7 +14,7 @@
 }
 
 .modal-content {
-    background: var(--second-color);
+    /* background: var(--second-color); */
     padding: 15px;
     border-radius: 8px;
     width: 40%;
