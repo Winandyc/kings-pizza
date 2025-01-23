@@ -6,40 +6,31 @@ import './styles.css';
 const Subscription = () => {
     const logos = [
         {
-            src: `${process.env.PUBLIC_URL}/images/logos/hamburger-v.png`,
+            src: `${process.env.PUBLIC_URL}/images/gold.png`,
             photoSrc: [
-                `${process.env.PUBLIC_URL}/images/food/prestige.jpg`,
-                `${process.env.PUBLIC_URL}/images/food/prestige2.jpg`
+                `${process.env.PUBLIC_URL}/images/gold.png`,
             ],
-            title: 'Hamburger Prestige',
-            description: 'Un hamburger juteux et savoureux',
-            price: '13€',
+            title: 'Abonnement OR',
+            description: 'Parce que vous le vallez bien',
+            price: '13€ /mois',
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/logos/patigot-v.png`,
+            src: `${process.env.PUBLIC_URL}/images/silver.png`,
             photoSrc: [
-                `${process.env.PUBLIC_URL}/images/food/patigot.jpg`,
-                `${process.env.PUBLIC_URL}/images/food/patigot2.jpg`
+                `${process.env.PUBLIC_URL}/images/silver.png`,
             ],
-            title: 'Patigot de la Mer',
-            description: (
-                <>
-                    Notre spécialité de fruits de mer à base de pommes de terre, filets de colins, filets de cabillaud, séches, moules & gambas.
-                    <br />
-                    Le tout arrosé d'un aïoli spécial chaud.
-                </>
-            ),
-            price: '15,50€',
+            title: 'Abonnement ARGENT',
+            description: 'Vous le méritez',
+            price: '10,29€ /mois',
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/logos/calzone-v.png`,
+            src: `${process.env.PUBLIC_URL}/images/bronze.png`, // A CHANGER 
             photoSrc: [
-                `${process.env.PUBLIC_URL}/images/food/calzone.jpg`,
-                `${process.env.PUBLIC_URL}/images/food/calzone2.jpg`,
+                `${process.env.PUBLIC_URL}/images/bronze.png`,
             ],
-            title: 'Calzone Géant',
-            description: 'Un calzone triple XL confectionné selon vos gouts',
-            price: '18,50€',
+            title: 'Abonnement BRONZE',
+            description: 'Parce que pourquoi pas !',
+            price: '8,50€ /mois',
         },
     ];
 

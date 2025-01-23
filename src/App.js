@@ -14,15 +14,17 @@ function App() {
   return (
     <Router basename="/kings-pizza">
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/menu/pizzeria" element={<Pizzeria />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/LegalesNotices" element={<LegalesNotices />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/menu/pizzeria" element={<Pizzeria />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/LegalesNotices" element={<LegalesNotices />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </div>
       </div>
     </Router>
   );

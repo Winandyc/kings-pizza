@@ -60,7 +60,7 @@
 }
 
 .modal-content {
-  position: relative;
+  background: linear-gradient(to bottom, rgba(156, 147, 134, 0.9), rgba(255, 255, 255, 0.9));
   margin: auto;
   padding: 0;
   width: 80%;
@@ -68,9 +68,7 @@
 }
 
 .modal-content img {
-  border-radius: 10px;
-  width: 65%;
-  height: 45dvh;
+  width: 30%;
 }
 
 .logo-item h2 {

@@ -20,7 +20,7 @@
     flex: 1;
     text-align: left;
     font-size: 1.2em;
-    color: #fff;
+    color: black;
 }
 
 .legal {
@@ -30,7 +30,7 @@
 }
 
 .legal a {
-    color: #fff;
+    color: var(--third-color);
     text-decoration: underline;
 }
 
