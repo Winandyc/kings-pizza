@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import Pizzas from '../../Pizzas';
+import Pizzas from '../Pizzas';
 
 import './styles.css';
 

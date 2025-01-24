@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Header from '../../components/Header';
 
 import './styles.css';
 
 const Subscription = () => {
+    // Gestion de l'état pour le menu
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     const subscriptions = [
         {
             src: `${process.env.PUBLIC_URL}/images/bronze.png`,
@@ -43,7 +51,9 @@ const Subscription = () => {
     ];
 
     return (
-        <div className="subscriptions">
+        <div className={`subscriptions ${isMenuOpen ? 'darken' : ''}`}>
+            <Header toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
+            
             <h2 className="subscriptions-title">Découvrez nos formules d'abonnement !</h2>
             <div className="subscriptions-container">
                 {subscriptions.map((subscription, index) => (

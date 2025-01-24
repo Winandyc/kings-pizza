@@ -1,49 +1,80 @@
-.news-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.news-title {
-    font-size: 2.5rem;
-    font-family: 'duality', cursive;
-    color: black;
-    margin-bottom: 15px;
-}
-
-.news-subtitle {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.pizza-image-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.pizza-image {
-    width: 80%;
-    max-width: 500px;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
-.pizza-description {
+.news-wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 1.2rem;
-    color: #333;
+  }
+  
+  /* Section générale */
+  .news-section {
+    text-align: center;
+  }
+  
+  .news-title {
     font-family: 'duality', cursive;
-}
-
-.pizza-description h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
     margin-bottom: 10px;
-}
-
-.pizza-description p {
+  }
+  
+  .news-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .pizza-image-container {
+    margin: 0 auto 30px;
+    max-width: 300px;
+  }
+  
+  .pizza-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .pizza-description {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .pizza-name {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .pizza-details {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-details li {
+    font-size: 1.1rem;
+    color: #555;
     margin-bottom: 15px;
-}
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #ff6347;
+  }
+  
+  .pizza-price {
+    font-size: 1.4rem;
+    color: #ff6347;
+    font-weight: bold;
+    text-align: center;
+  }
+  
