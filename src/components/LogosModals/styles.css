@@ -1,5 +1,3 @@
-@import '../../variables.css';
-
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -14,47 +12,45 @@
 }
 
 .modal-content {
-    /* background: var(--second-color); */
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
-    width: 40%;
-    height: 70%;
+    width: 35%;
+    height: auto;
+    max-height: 60%;
     text-align: center;
     position: relative;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .modal-content h2 {
     font-family: 'duality', cursive;
     color: black;
+    margin-bottom: 15px;
 }
 
 .modal-media {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
-.modal-image, .modal-video {
+.modal-image {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 .modal-text {
-    position: relative;
-    top: 7dvh;
     font-family: 'duality', cursive;
     font-size: 17px;
     font-weight: bolder;
-}
-
-.modal-text.patigot {
-    font-size: 14px;
-    top: 4dvh;
+    margin-bottom: 20px;
 }
 
 .modal-price {
@@ -62,7 +58,20 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-link {
+    font-family: 'duality', cursive;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    align-self: center;
+}
+
+.modal-link:hover {
+    color: black;
 }
 
 .close-button {
@@ -75,25 +84,3 @@
     font-size: 1.5rem;
     cursor: pointer;
 }
-
-.navigation {
-    position: absolute;
-    top: 50%;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.navigation button {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: black;
-}
-
-.navigation button:hover {
-    color: rgba(255, 255, 255, 1);
-}
-

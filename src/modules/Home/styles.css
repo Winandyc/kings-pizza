@@ -63,13 +63,14 @@ body {
   justify-content: center;
 }
 
-.video-container {
+.image-container {
   margin: 20px 0;
 }
 
-.video {
+.image {
   width: 55vw;
   border-radius: 8px;
+  object-fit: cover; /* Pour que l'image remplisse l'espace tout en gardant son ratio */
 }
 
 .text-section {

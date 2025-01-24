@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/Header';
 import BurgerMenu from '../../components/BurgerMenu';
-import Subscription from '../../components/Subscription';
+import Subs from '../../components/Subs';
 import News from '../../components/News';
 import { Headset } from 'lucide-react';
 
@@ -22,27 +22,27 @@ const Home = () => {
                 <div className="left-section">
                     <img src={`${process.env.PUBLIC_URL}/images/logoKings2.png`} alt="Restaurant Logo" className="logo-intro" />
                     <p>
-                        <strong>Pizzas traditionnelles - Viande Angus Irlandaise de qualité supérieure</strong>
+                        <strong>Pizzas au feu de bois - Une saveur unique !</strong>
                     </p>
                     <p>
-                        Sur place 5j/7 midi & soir : du <strong> Mardi au Samedi </strong>
+                        Ouvert <strong> 7j/7 tous les soirs </strong>
                     </p>
                     <p>
-                        Service de <strong> 11h45 à 13h15 </strong> et de <strong> 19h00 à 21h15 </strong>
+                        <strong> 18h00 </strong> à <strong> 23h00 </strong>
                     </p>
                     <p>
-                        A emporter ou en Livraison 7j/7 (sauf le Dimanche midi)
+                        <strong> A emporter ou en Livraison </strong>
                     </p>
                     <div className="contact-number">
                         <Headset className="icon" />
-                        <p>04 75 90 97 86</p>
+                        <p>04 04 04 04 04</p>
                     </div>
                 </div>
 
-                {/* Zone droite avec la vidéo */}
+                {/* Zone droite avec l'image */}
                 <div className="right-section">
-                    <div className="video-container">
-                        <video src={`${process.env.PUBLIC_URL}/videos/introducting.mp4`} controls className="video" />
+                    <div className="image-container">
+                        <img src={`${process.env.PUBLIC_URL}/images/so-presto.jpg`} alt="So Presto" className="image" />
                     </div>
                 </div>
             </div>
@@ -55,20 +55,21 @@ const Home = () => {
                 </p>
                 <br />
                 <p>
-                    Ne manquez pas notre spécialité unique : le <strong>Patigot de la Mer</strong>, un délicieux plat aux fruits de mer qui saura ravir vos papilles.
+                    Service de <strong> Pizzas </strong> et <strong> snacking </strong>
                 </p>
                 <br />
                 <p>
-                    Profitez d'une ambiance chaleureuse et d'un service amical dans un cadre inspiré des saloons du Far West, parfait pour passer un moment convivial entre amis ou en famille.
+                    Profitez d'une ambiance chaleureuse et d'un service amical. A emporter ou en livraison, c'est vous qui choisissez !
                 </p>
             </div>
 
-            <Subscription />
+
+            <Subs />
             <News />
 
             {/* Utilisation du composant BurgerMenu */}
             <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-        </div>
+        </div >
     );
 };
 
