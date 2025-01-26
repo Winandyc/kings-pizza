@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from '../../components/Header';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import './styles.css';
 
@@ -27,22 +28,18 @@ const About = () => {
     return (
         <div className={`about ${isMenuOpen ? 'darken' : ''}`}>
             <Header toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
-            <h2>Contactez-nous</h2>
-            <p>
-                Pour toute question ou réservation, n'hésitez pas à nous contacter :
-            </p>
-            <p>
-                <strong>Téléphone :</strong> 06 06 06 06 06
-            </p>
-            <p>
-                <strong>Email :</strong> contact@lamaisondubon.com
-            </p>
-            <p>
-                <strong>Adresse :</strong> 74 AV Jean Jaurès, 26200 Montélimar
-            </p>
-            <h3>Heures d'ouverture :</h3>
-            <p>Lundi - Vendredi : 12h - 22h</p>
-            <p>Samedi - Dimanche : 18h - 23h</p>
+            
+            <div className="contact-info">
+                <h3>Contactez-nous</h3>
+                <p><strong>Téléphone :</strong> 04 04 04 04 04</p>
+                <p><strong>Email :</strong> kingspizza@gmail.com</p>
+                <p><strong>Adresse :</strong> 74 AV Jean Jaurès, 26200 Montélimar</p>
+            </div>
+
+            <div className="opening-hours">
+                <h3>Heures d'ouverture :</h3>
+                <p>Du Lundi au Dimanche : 18h - 23h</p>
+            </div>
 
             {/* Menu déroulant */}
             <div ref={menuRef} className={`sidebar ${isMenuOpen ? "menu-open" : "menu-closed"}`}>
@@ -54,6 +51,14 @@ const About = () => {
                         <li><a href="#subscription">Abonnement</a></li>
                         <li><a href="#about">À propos</a></li>
                     </ul>
+                </div>
+            </div>
+
+            {/* Section pour la carte */}
+            <div className="map-container">
+                {/* Ici on laisse la map vide pour l'instant */}
+                <div className="map-placeholder">
+                    <h4>La carte sera ici</h4>
                 </div>
             </div>
         </div>

@@ -1,0 +1,59 @@
+.snacks {
+    padding: 40px 20px;
+  }
+  
+  .snacks-title {
+    font-family: 'Duality', cursive;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .snacks-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .snack-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .snack-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .snack-img {
+    width: 80%;
+    margin: 0 auto 15px;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .snack-name {
+    font-family: 'Duality', cursive;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .snack-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .snack-price {
+    font-size: 1.2rem;
+    color: var(--third-color);
+    font-weight: bold;
+  }
+  

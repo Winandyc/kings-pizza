@@ -81,4 +81,5 @@ body {
 .text-section h2 {
   font-family: 'duality', cursive;
   font-size: 2.5rem;
+  color: var(--primary-color);
 }

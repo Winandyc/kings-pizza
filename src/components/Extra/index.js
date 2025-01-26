@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import Pizzas from '../Pizzas';
+import Extras from '../Extras';
 
-export const Pizzeria = () => {
+export const Extra = () => {
     const navigate = useNavigate();
 
     // Fonction pour fermer la page
@@ -11,14 +11,14 @@ export const Pizzeria = () => {
     };
 
     return (
-        <div className="pizzeria-menu-container">
+        <div className="extra-menu-container">
             {/* Bouton de fermeture */}
             <button onClick={handleClose} className="close-button">
                 &times;
             </button>
 
-            {/* Section Pizzas */}
-                <Pizzas />
+            {/* Section Extras */}
+                <Extras />
         </div>
     );
 };

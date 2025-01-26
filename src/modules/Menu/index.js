@@ -32,25 +32,12 @@ const Menu = () => {
                 <Link to="/menu/pizzeria" className="menu-card">
                     <h2>Pizzeria</h2>
                 </Link>
-                <Link to="/menu/restaurant" className="menu-card">
+                <Link to="/menu/snacking" className="menu-card">
                     <h2>Snacking</h2>
                 </Link>
-                <Link to="/menu/specialties" className="menu-card">
+                <Link to="/menu/extra" className="menu-card">
                     <h2>Boissons/desserts</h2>
                 </Link>
-            </div>
-
-            {/* Menu déroulant */}
-            <div ref={menuRef} className={`sidebar ${isMenuOpen ? "menu-open" : "menu-closed"}`}>
-                <button className="close-button" onClick={toggleMenu}>&times;</button>
-                <div className="sidebar-content">
-                    <ul>
-                        <li><a href="#home">Accueil</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#subscription">Abonnement</a></li>
-                        <li><a href="#about">À propos</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
     );

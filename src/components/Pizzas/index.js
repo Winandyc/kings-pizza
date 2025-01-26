@@ -56,7 +56,7 @@ export const PizzasMenu = () => {
     <div className="pizza-menu-container">
       <button onClick={handleClose} className="close-button">&times;</button>
       <h1>Nos Pizzas</h1>
-      <h3>Une seule taille : <span> 29cm </span></h3>
+      <h2>Une seule taille : <span> 29cm </span></h2>
       <div className="delivery">
         <p>À emporter ou en livraison :<span>15,00€</span></p>
       </div>

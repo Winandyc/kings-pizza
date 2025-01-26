@@ -1,4 +1,148 @@
-.contact {
-    padding: 20px;
-    background-color: #ffe6cc;
-  }
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.about h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about p {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about p strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.menu-open {
+  transform: translateX(0);
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-content ul li {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sidebar-content ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.sidebar-content ul li a:hover {
+  color: #ff8c00;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.8rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #ff8c00;
+}
+
+.about .contact-info {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.about .contact-info h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about .contact-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about .opening-hours {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about .opening-hours p {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Section de la carte */
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+}
+
+.map-placeholder {
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-placeholder h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
