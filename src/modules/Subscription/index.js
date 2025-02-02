@@ -13,7 +13,7 @@ const Subscription = () => {
 
     const subscriptions = [
         {
-            src: `${process.env.PUBLIC_URL}/images/bronze.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/bronze.png`,
             title: 'Abonnement BRONZE',
             price: '8,50€ /mois',
             description: 'Parce que pourquoi pas ! Vous obtenez un café gratuit à chaque commande et 5% de réduction sur nos pizzas.',
@@ -24,7 +24,7 @@ const Subscription = () => {
             ]
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/silver.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/silver.png`,
             title: 'Abonnement ARGENT',
             price: '10,29€ /mois',
             description: 'Parce que vous le méritez ! Bénéficiez d\'un dessert gratuit pour chaque commande et 10% de réduction sur nos pizzas.',
@@ -36,7 +36,7 @@ const Subscription = () => {
             ]
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/gold.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/gold.png`,
             title: 'Abonnement OR',
             price: '13€ /mois',
             description: 'Parce que vous êtes VIP ! Vous avez la classe mais également une pizza gratuite chaque mois et 15% de réduction sur tout, même les boissons !',

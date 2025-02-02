@@ -24,7 +24,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1; /* Placement du pseudo-élément en arrière-plan */
 }
 

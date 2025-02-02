@@ -4,7 +4,7 @@ import './styles.css';
 const Subs = () => {
     const logos = [
         {
-            src: `${process.env.PUBLIC_URL}/images/bronze.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/bronze.png`,
             title: 'Abonnement BRONZE',
             price: '8,50€ /mois',
             benefits: [
@@ -14,7 +14,7 @@ const Subs = () => {
             ],
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/silver.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/silver.png`,
             title: 'Abonnement ARGENT',
             price: '10,29€ /mois',
             benefits: [
@@ -24,7 +24,7 @@ const Subs = () => {
             ],
         },
         {
-            src: `${process.env.PUBLIC_URL}/images/gold.png`,
+            src: `${process.env.PUBLIC_URL}/images/logos/gold.png`,
             title: 'Abonnement OR',
             price: '13€ /mois',
             benefits: [

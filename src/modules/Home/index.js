@@ -20,7 +20,7 @@ const Home = () => {
             <div className="home-content1">
                 {/* Zone gauche avec logo */}
                 <div className="left-section">
-                    <img src={`${process.env.PUBLIC_URL}/images/logoKings2.png`} alt="Restaurant Logo" className="logo-intro" />
+                    <img src={`${process.env.PUBLIC_URL}/images/logos/logoKings2.png`} alt="Restaurant Logo" className="logo-intro" />
                     <p>
                         <strong>Pizzas au feu de bois - Une saveur unique !</strong>
                     </p>
